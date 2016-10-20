@@ -1,0 +1,94 @@
+<!doctype html>
+<HTML>
+    <HEAD>
+        <TITLE>Contacto</TITLE>
+         <link rel="stylesheet" href="CONTACTENOS.css"/>
+    </HEAD>
+
+    <BODY>
+        
+        <header>
+        <div id="Titulo">
+            <h1>La bodeguita</h1>
+            
+        </div>
+		  <div id="ImagenContacto">
+                <img src="http://mobilegeeks.com/wp-content/uploads/2012/08/google-contacts1.png"/>
+            </div>
+        
+		</header>
+		
+		<section id="Contenedor1">
+		
+		
+		    <div id="Formulario">
+            <h1> Formulario de contacto</h1>
+            
+        <p> Complete este formulario para contactarnos:</p>
+        
+        <form action="" method="post">
+            <div Class="fila">
+                <label for="nombre">Nombre:</label>
+                 <input id="nombre" type="text" placeholder="escribir tu nombre" name="nombre"/>
+            </div>
+            
+            
+            <div Class="fila">
+                <label for="apellido"> Apellido</label>
+                 <input id="apellido" type="text" name="apellido"/>
+            </div>
+            
+            
+            
+            <div Class="fila">
+                
+                <label for="motivo"> Motivo de contacto:</label>
+                
+                <select name="motivo">
+                    <option value="1"> Quejas</option>
+                    <option value="2"> Sugerencia</option>
+                    <option value="3"> Reclamo</option>
+                    <option value="4"> Otros</option>
+                </select>
+            </div>
+            
+        
+            
+            <div Class="fila">
+                <label>¿Es usuario registrado?</label>
+                
+                <input type="radio" name="es_usuario" value="si" id="es_usuario_si"/> <label for="es_usuario_si"> Si</label>
+                <input type="radio" name="es_usuario" value="no" id="es_usuario_no"/> <label for="es_usuario_no"> No</label>
+            </div>
+            
+            
+            <div Class="fila">
+                <label>¿Desea respuesta por correo?</label>
+                <input type="checkbox" name="respuesta_correo" value="si" /> si
+            </div>
+            
+            
+            <div Class="fila">
+                <label for="mensaje">Mensaje de contacto:</label>
+                
+                <textarea name="mensaje" id="mensaje"></textarea>
+            </div>
+            
+            <div Class="fila">
+                <input type="submit" value="Enviar formulario"/>
+            </div>
+        </div>
+		    
+		    
+		
+		</section>
+		
+		<section id="Contenedor2">
+		    <h1>Mapa-ubicacion</h1>
+		    
+		</section>
+		
+		<footer>
+		</footer>
+    </BODY>
+</HTML>

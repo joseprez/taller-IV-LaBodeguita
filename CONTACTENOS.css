@@ -1,0 +1,66 @@
+header {
+    font-family:Arial;
+    background-color: #BDBDBD;
+}
+
+BODY {
+    background-color: #58D3DF7;
+}
+section {
+    background-color: #58D3F7;
+}
+    
+#Contenedor1 {
+    font-family:Arial;
+    background-color:#58D3F7;
+    width:700px;
+    float: left;
+    padding-left:50px;
+    height: 417px;
+    margin-top:20px;
+    padding-top:50px;
+}
+#Centrado {
+    text-align: center;
+}
+#Contenedor2
+{
+    background-image: url(https://image.freepik.com/psd-gratis/alta-resolucion-google-map-psd_60-705.jpg);
+    margin: 0 auto;
+    height:470px;
+    width:626px;
+    margin-left:780px;
+}
+#Titulo {
+    text-align:center;
+}
+#ImagenContacto {
+    margin-left:40%;
+    margin-right:40%;
+    text-align:center;
+    padding:1px;
+}
+.fila {
+               margin:10px 0;
+               
+           }
+           .fila label:first-child
+           {
+               
+               float:left;
+               width: 200px;
+               text-align:right;
+               margin-right:15px;
+           }
+           .fila:last-child
+           {
+               text-align: center;
+           }
+           
+           
+footer {
+    background-color: black;
+    padding-top: 50px;
+    height: 100px;
+    clear: both;
+}           
