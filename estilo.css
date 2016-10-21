@@ -7,10 +7,71 @@
   header{
 	 
  }
+ 
+ /*LOGIN CSS*/
+ .contenedor{
+	max-width: 50%;
+	margin: 0 auto;
+	padding: 5px 0;
+	height: 250px;
+	text-align: center;
+	margin-top: 5%;
+	background-color: #0A0E6F;
+}
+
+form{
+	padding: 20px 0px;
+	position: relative;
+}
+
+form input{
+	outline: 0;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 250px;
+	border-radius: 3px;
+	padding: 10px 15px;
+	margin: 10px auto 20px auto;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	-webkit-transition-duration: 0.25s;
+			transition-duration: 0.25s;
+	font-weight: 300;
+}
+
+form input: hover{
+	background-color: #08088A;
+}
+
+form input: focus{
+	background-color: white;
+	width: 300px;
+	color: #08088A;
+}
+
+form button{
+	background-color: white;
+	outline: 0;
+	border: 0;
+	padding: 10px 15px;
+	color: #08088A;
+	width: 250px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+form button: hover{
+	background-color: #08088A;
+}
+ /*LOGIN CSS*/
+ 
   #logo{
 	float: left;
 	 padding-top: 3%;
-	 margin-left: 5%;
+	 margin-left: 10%;
  }
  #menu{
 	text-align: right;
