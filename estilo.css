@@ -1,8 +1,12 @@
 header{
 	
-	text-align: center;
+text-align:center;
 
 
+}
+
+body{
+	background-image: url("img/fondo.jpg");
 }
 
 div{
@@ -17,6 +21,15 @@ div{
 	margin-top: 50px;
 }
 
+nav{
+	background-color: #D0CAC9;
+	color: white;
+	
+}
+
+#ofertas{
+	text-align: center;
+}
 
 #contenido  section {
 				background-color: #eaeaeb;				
@@ -28,11 +41,9 @@ div{
 			}
 
 footer{
-	padding: 50px 50px;
+	padding: 30px 20px;
 	background-color: black;
-	margin-top: 50px;
-	
-
+	margin-top: 13%;
 	
 	text-align: center;
 	color: white;
