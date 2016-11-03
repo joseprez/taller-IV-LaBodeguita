@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRAR_CLIENTE</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="registrar.css">
+</head>
+<body>
+	<header>
+		<div class="main-row">
+			<div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+				<img src="Imagenes/logo.jpg" class="img-responsive">
+			</div> 
+
+		</div>
+
+		<div class="container">
+			<span>512-2234</span>
+		</div>
+	</header>
+
+	<div   id="fecha" class="container-fluid">
+		<span>Lima sabado 12 de Noviembre</span>
+	</div>
+	<div class="container">
+		<div class="main-row">
+			<div  class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+
+								<form class="form-inline">
+										<br>
+										<h4><strong>Datos del cliente</strong></h4>
+										<hr style="border: 1px solid #E6E6E6">
+
+										<div style="margin:0px 7px 0 7px" class="form-group">
+											<label for="option_igual">Documento:</label>
+											<br>
+											
+											<select class="form-control" name="" id="option_igual">
+												<option value="">DNI</option>
+												<option value="">Pasaporte</option>
+												<option value="">Otros</option>
+												
+											</select>
+											
+											
+											<input class="form-control" id="option_igual" type="text" placeholder="Ingrese Nro doc.">
+											
+
+										</div>
+
+										<div style="margin:0px 7px 0 7px" class="form-group">
+											<label for="nombre">Nombre(es)</label>
+											<br>
+											<input class="form-control" id="nombre" type="text" placeholder="Ingresar Nombres" size="15">
+										</div>
+
+										<div style="margin:0px 7px 0 7px" class="form-group">
+											<label for="apellido">Apellidos</label>
+											<br>
+											<input class="form-control" id="apellido" type="text" placeholder="Ingresar Apellidos" size="15">
+										</div>
+
+										<div style="margin:0px 7px 0 7px" class="form-group">
+											<label for="edad">Edad</label>
+											<br>
+											<input class="form-control" id="edad" type="text" placeholder="Edad" size="2">
+										</div>
+
+										<div style="margin:0px 7px 0 7px" class="form-group">
+											<label for="sexo">Sexo</label>
+											<br>
+											<input type="radio" name="opcion" id="sexoM"><label for="sexoM">&nbsp;M</label>
+											<input type="radio" name="opcion" id="sexoF"><label for="sexoF">&nbsp;F</label>
+										</div>
+										
+								</form>
+								<p style="margin:0px 7px 0 7px" class="help-block">(PASAPORTE si no eres peruano)</p>
+								<br>
+
+								<form class="form-inline">
+										<h4><strong>Datos de contacto</strong></h4>
+										<hr style="border: 1px solid #E6E6E6">
+
+									
+										<div style="margin:0px 7px 0 7px" class="form-group">
+											
+												<label for="nombre">Email</label>
+												<br>
+												<input class="form-control" id="correo" type="text" placeholder="Correo:">
+											
+										</div>
+
+										<div style="margin:0px 7px 0 7px" class="form-group">
+											<label for="nombre">Celular (opcional)</label>
+											<br>
+											<input class="form-control" id="nombre" type="text" placeholder="Nro Celular: " size="15">
+										</div>
+
+
+								</form>
+							
+
+								<!-- TIPO DE PAGO-->
+									<br>
+									<h4><strong>Formas de pago</strong></h4>
+									<hr style="border: 1px solid #E6E6E6">
+								
+								<div class="container col-xs-12 col-sm-12 col-md-9 col-lg-12">
+									<div style="border-radius: 10px" class="table-responsive">
+										<table  class="table table-bordered table-hover">
+
+
+											<tr id="fondo">
+
+												<th><h4>TIPO DE PAGOS</h4></th>
+												<th><h4>SELECCIONE UNA OPCION</h4></th>
+												
+											</tr>
+											<tr >
+												<td>
+													<h5>PAGO CON TARJETA</h5>
+						                        	<br>
+						                            <img style="width: 400px" src="Imagenes/pago1.jpg" class="img-responsive">
+												</td>
+												<td>
+													<br><br><br>
+													<a href="#ventan1" class="btn btn-success btn-lg" data-toggle="modal">Boton #1</a>
+												</td>
+												
+											</tr>
+											<tr>
+												<td>
+													<h5>BANCA POR INTERNET</h5>
+						                        	<br>
+						                            <img style="width: 400px" src="Imagenes/pago2.png" class="img-responsive">
+												</td>
+												<td>
+													<br><br><br><br>
+													<a href="#ventan2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
+												</td>
+												
+											</tr>
+											<tr>
+												<td>
+													<h5>PAYPAL</h5>
+						                        	<br>
+						                            <img style="width: 400px" src="Imagenes/pago3.jpg" class="img-responsive">
+												</td>
+												<td>
+													<br><br><br><br>
+													<a href="#ventan2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
+												</td>
+
+											</tr>
+											<tr>
+												<td>
+													<h5>CONTRA ENTREGA</h5>
+						                        	<br>
+						                            <img  style="width: 400px" src="Imagenes/pago4.png" class="img-responsive">
+												</td>
+												<td >
+													<br><br><br>
+													<a href="#ventan2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
+												</td>
+
+											</tr>
+										</table>
+									</div>
+								</div>
+					
+
+									<!-- VENTANA EMERGENTE-->
+
+											<div class="modal fade" id="ventan1">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+																	<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+																	<h4 class="modal-title">Pago con tarjeta de credito o debito</h4>
+														</div>
+
+														<div class="modal-body">
+															<form action="#" class="credit-card-div">
+																	
+																	<div class="panel panel-default" >
+																	 <div class="panel-heading">
+																	     <br><br>
+																	      <div class="row ">
+																	              <div class="col-md-12">
+																	                  <input type="text" class="form-control" placeholder="Numero de tarjeta" />
+																	              </div>
+																	        </div>
+																	        <br>
+																	     <div class="row ">
+																	              <div class="col-md-3 col-sm-3 col-xs-3">
+																	                  <span class="help-block text-muted small-font" > Mes</span>
+																	                  <input type="text" class="form-control" placeholder="MM" />
+																	              </div>
+																	         <div class="col-md-3 col-sm-3 col-xs-3">
+																	                  <span class="help-block text-muted small-font" >  Año</span>
+																	                  <input type="text" class="form-control" placeholder="YY" />
+																	              </div>
+																	        <div class="col-md-3 col-sm-3 col-xs-3">
+																	                  <span class="help-block text-muted small-font" >  CCV</span>
+																	                  <input type="text" class="form-control" placeholder="CCV" />
+																	              </div>
+																	         <div class="col-md-3 col-sm-3 col-xs-3">
+																	<img style="width: 100px" src="Imagenes/tarjeta.jpg" class="img-rounded" />
+																	         </div>
+																	      </div>
+																	      <br>
+																	     <div class="row ">
+																	              <div class="col-md-12 pad-adjust">
+
+																	                  <input type="text" class="form-control" placeholder="Nombre del propietario de la tarjeta" />
+																	              </div>
+																	     </div>
+																	     <br>
+																	    <div class="row">
+																			<div class="col-md-12 pad-adjust">
+																				 <div class="checkbox">
+																					    <label>
+																					      <input type="checkbox" checked class="text-muted"> Guardar detalles para pagos rapidos <a href="#"> aprender como ?</a>
+																					    </label>
+																				 </div>
+																			</div>
+																		</div>
+																	    
+																	     <br><br>
+																	</div>
+																</div>
+															</form>
+														</div>
+														
+
+														<div style="text-align: center" class="modal-footer">
+															<div class="row ">
+													            <div class="col-md-6 col-sm-6 col-xs-6 ">
+													               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Cancelar</button>
+													            </div>
+													            <div class="col-md-6 col-sm-6 col-xs-6 ">
+													                  <button type="button" class="btn btn-warning btn-lg btn-block">Pagar</button>
+													            </div>
+															</div>
+
+														
+															
+														</div>
+
+
+
+
+													</div>
+													
+												</div>
+											</div>
+
+											<!-- VENTANA EMERGENTE 2DO BOTON-->
+
+											<div class="modal fade" id="ventan2">
+												<div class="modal-dialog">
+													<div class="modal-content">
+
+														<!-- header de la ventana-->
+														<div class="modal-header">
+															<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+															<h4 class="modal-title">Encabezado de nuestra ventana 2</h4>
+														</div>
+
+														<!-- contenido de la ventana-->
+														<div class="modal-body">
+															<p>jfhsjhfkjashfjkasfhjashfkasjhfkasjhfkjhfhfjkshfhdjhffjsah</p>
+														</div>
+
+														<!-- contenido de la ventana-->
+														<div class="modal-footer">
+															<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+															<button type="button" class="btn btn-primary">Guardar Cambios</button>
+															
+														</div>
+													</div>
+													
+												</div>
+											</div>
+									</div>
+
+								</form>
+
+									<!-- VENTANA EMERGENTE FIN-->
+
+
+								
+				
+			</div>
+
+			<div class="visible-lg col-xs-12 col-sm-4 col-md-3 col-lg-3">
+				
+						<form action="#" class="credit-card-div">
+							<div class="panel panel-default">
+						 		<div class="panel-heading">
+									     	<div class=" modal-content col-md-12">	
+									     		<div class="modal-header">
+													
+													<h4 class="modal-title">RESUMEN DE PEDIDO</h4>
+												</div>
+									      
+									     		<div class="modal-body">
+															
+									     		</div>
+									     		<div class="modal-footer">
+									     			
+									     		</div>
+									     	</div>
+						  				</div>
+							</div>
+						</form>
+
+			</div>
+		</div>
+		
+	</div>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

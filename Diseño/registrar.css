@@ -1,0 +1,28 @@
+header{
+	
+	padding-top:30px;
+	color:#fff;
+	text-align: center;
+}
+#fecha{
+	font-size: 15px;
+	background: red;
+	color: white;
+	padding: 10px;
+}
+td{
+	text-align: center;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#fondo{
+	background-color: #084B8A;
+	color: white;
+
+}
+th{
+	text-align: center;
+}
