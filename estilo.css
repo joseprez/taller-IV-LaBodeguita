@@ -1,13 +1,14 @@
+body{
+	background-image: url("img/fgris.png");
+}
 header{
 	
-text-align:center;
+
 
 
 }
 
-body{
-	background-image: url("img/fgris.jpg");
-}
+
 
 div{
 	padding-left:20px;	
