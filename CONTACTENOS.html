@@ -20,7 +20,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">LaBodeguita</a>
+                <a href="index.html" class="navbar-brand">LaBodeguita</a>
             </div>
         <!-- Inicia Menu -->
         <div class="collapse navbar-collapse" id="navegacion-lb">
@@ -69,21 +69,34 @@
             <form action="" class="">
                 <div class="form-group">
                     <label for="nombre">Nombre: </label>
-                    <input class="form-control" type="text"  id="nombre" placeholder="Nombre">
+                    <input class="form-control" type="text"  id="nombre" placeholder="Nombre" required="">
                 </div>
                     
                 <div class="form-group">
-                    <label for="option">GG</label>
-                    <select class="form-control" name="" id="option">
-                        <option value="">Opcion #1</option>
-                        <option value="">Opcion #1</option>
-                        <option value="">Opcion #1</option>
+                    <label for="option">Tipo de Mensaje</label>
+                    <select class="form-control" name="" id="option" required="Elija una opción">
+                        <option value="">----------</option>
+                        <option value="">Sugerencias</option>
+                        <option value="">Preguntas</option>
+                        <option value="">Problemas</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="mensaje">Mensaje: </label>
-                    <textarea class="form-control" id="mensaje" placeholder="Escribe tu Mensaje"></textarea>
+                    <textarea class="form-control" id="mensaje" placeholder="Escribe tu Mensaje" style="height: 200px" required=""></textarea>
                 </div>
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <label class="sr-only" for="correo">E-mail:</label>
+                        <div class="input-group-addon">@</div>
+                        <input class="form-control" id="correo" type="email" placeholder="Correo" required="">
+                    </div>
+                    
+                </div>
+
+                <input type="submit" value="Enviar" class="btn btn-primary">
+
 
             </form>
             </section>
