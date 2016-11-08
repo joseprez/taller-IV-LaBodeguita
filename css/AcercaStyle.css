@@ -1,0 +1,129 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+
+}
+
+#contenedor{
+    margin:auto;
+    width:1400px;
+    height:1910px;
+    background-color:gray;
+}
+
+#nav
+{
+    
+    width:100%;
+    height:190px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+	
+}
+
+#opciones
+{
+	float:left;
+	width:100%;
+    height:190px;
+	background-color: #D0CAC9;
+	color: white;
+    
+}
+
+#body{
+    float:right;
+    width:1400px;
+    height:700px;
+    background-image: url(http://www.fondos12.com/data/media/2/big/textura-con-manchas-suaves-23827-2560x1600__wallpaper_480x300.jpg);
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#mision
+{
+    float:left;
+    width:600px;
+    height:300px;
+    text-align: center;
+}
+#vision
+{
+    float:right;
+    width:600px;
+    height:300px;
+    text-align: center;
+    
+}
+#contenedor-imagen
+{
+    float:left;
+    margin:auto;
+    width:1400px;
+    height:400px;
+    background-color: blue;
+}
+#imagen-izquierda
+{
+    background: url(https://aniocero.files.wordpress.com/2011/03/fruteria2.jpg) no-repeat;
+    width:466px;
+    height:400px;
+    float:left;
+}
+#imagen-central
+{
+    background: url(https://1.bp.blogspot.com/-RjSbmD3w0oE/ULie9huV6fI/AAAAAAAABlQ/zJyXzkf7bnI/s1600/almacenreposici%C3%B3n.jpg) no-repeat;
+    width:466px;
+    height:400px;
+    
+    float:left;
+}
+#imagen-derecha
+{
+    background: url(http://www.tronya.co/wp-content/uploads/2016/05/Tienda-de-abarrotes-rodante-foto-3.jpg) no-repeat;
+    width:466px;
+    height:400px;
+    float:left;
+}
+#body2
+{ 
+    float:right;
+    width:1400px;
+    height:500px;
+    background-image: url(http://www.fondos12.com/data/media/2/big/textura-con-manchas-suaves-23827-2560x1600__wallpaper_480x300.jpg);
+    
+    
+}
+#politica
+{
+    float:left;
+    width:600px;
+    height:500px;
+    text-align: center;
+}
+#quienes-somos
+{
+    float:right;
+    width:600px;
+    height:500px;
+    text-align: center;
+}
+#contorno-footer
+{   background:url(http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0225/5028/Corn_plants_seamless_pattern_stock-Ai8-v_shop_thumb.png) ;
+    float:left;
+    width:1400px;
+    height:100px;
+}
+#footer-info
+{
+    float:left;
+    width:1400px;
+    height:300px;
+    background-color:#339933;
+}
+

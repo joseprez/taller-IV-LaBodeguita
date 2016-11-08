@@ -7,7 +7,8 @@
   			background-image: url("img/fgris.png");
   			}
   		</style>
-     
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     	<link href="css/IconosStyle.css" rel="stylesheet" >
   		<link href="css/bootstrap.min.css" rel="StyleSheet">
   		<link href="css/InicioStyle.css" rel="StyleSheet">
 	</head>
@@ -33,7 +34,7 @@
             <!-- CATEGORIA DESLIZABLE -->
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                CATEGORIAS <span class="caret"></span>
+                PRODUCTOS <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
                   <li><a href="#">Todos los productos</a></li>
@@ -67,17 +68,49 @@
     <section class="jumbotron jumbotron-lb">
       <div class="container">
         <img src="img/logo2.png" >
+
+        <!--Ingresar-->
+        <a href="#ventana1" class="btn btn-primary" data-toggle="modal">Iniciar Sesión</a>
+
+        <div class="modal fade" id="ventana1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+              <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                <h2 class="modal-title">Ingresar</h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Registrarse-->
+        <a href="#ventana2" class="btn btn-primary" data-toggle="modal">Registrarse</a>
       </div>
     </section>
-<!--
+
+
     <section class="main conteiner">
       <div class="row">
-        <div class="contenedor-botones">
-          <a href="#" class="btn btn-primary"></a>
-        </div>
+        <section class="posts col-md-9">
+        	<div class="miga-de-pan">
+        		<ol class="breadcrumb">
+        			<li><a href="#">Inicio</a></li>
+        			<li><a href="#">Productos</a></li>
+        			<li class="active">Bebidas</li>
+        		</ol>
+        	</div>
+
+        	<article class="post clearfix">
+        		<a href="#" class="thumb pull-left">
+        			<img src="img/oferta1.jpg" alt="">
+        		</a>
+
+        	</article>
+        </section>
       </div>
     </section>
-   -->
+   
    <!-- slider 
    <div class="conteiner1">
     
@@ -105,10 +138,13 @@
    </div> -->
 
 
-    <footer></footer>
+    <footer>
+    <h1><span class="icon-facebook2"></span> No SaLE</h1>
+    	Todos los derechos reservados. La Bodeguita ©
+    </footer>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>
 </html>
