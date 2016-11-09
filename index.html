@@ -11,6 +11,7 @@
      	<link href="css/IconosStyle.css" rel="stylesheet" >
   		<link href="css/bootstrap.min.css" rel="StyleSheet">
   		<link href="css/InicioStyle.css" rel="StyleSheet">
+      <link rel="stylesheet" href="css/flexslider.css" type="text/css">
 	</head>
 
 	<body>
@@ -101,12 +102,31 @@
         		</ol>
         	</div>
 
-        	<article class="post clearfix">
-        		<a href="#" class="thumb pull-left">
-        			<img src="img/oferta1.jpg" alt="">
-        		</a>
+          <article>
+             <div class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/lico1.jpg" alt="">
+                    <section class="flex-caption">
+                      <p>Ofertas en Licores</p>
+                    </section>
+                  </li>
+                  <li>
+                    <img src="img/ofer2.jpg" alt="">
+                    <section class="flex-caption">
+                      <p>Ofertas en Bebidas</p>
+                    </section>
+                  </li>
+                  <li>
+                    <img src="img/ofer1.jpg" alt="">
+                    <section class="flex-caption">
+                      <p>Ofertas en Productos</p>
+                    </section>
+                  </li>
+                </ul>
+              </div>
 
-        	</article>
+          </article>
         </section>
       </div>
     </section>
@@ -146,5 +166,17 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        touch: true,
+        pauseOnAction: false,
+        pauseOnHover: false,
+      });
+    });
+    </script>
 	</body>
 </html>
