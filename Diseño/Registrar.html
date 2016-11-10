@@ -6,12 +6,15 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 	<link rel="stylesheet" type="text/css" href="registrar.css">
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="registrarse.js"></script>
 </head>
 <body>
 	<header>
 		<div class="main-row">
 			<div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
-				<img src="Imagenes/logo.jpg" class="img-responsive">
+				<img style="width:200px" src="Imagenes/logobodeguita2.png" class="img-responsive">
 			</div> 
 
 		</div>
@@ -22,11 +25,12 @@
 	</header>
 
 	<div   id="fecha" class="container-fluid">
-		<span>Lima sabado 12 de Noviembre</span>
+		<span >Lima sabado 12 de Noviembre</span>
 	</div>
-	<div class="container">
+
+	<div  style="width: 96%" class="container-fluid">
 		<div class="main-row">
-			<div  class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
 								<form class="form-inline">
 										<br>
@@ -108,7 +112,7 @@
 									<hr style="border: 1px solid #E6E6E6">
 								
 								<div class="container col-xs-12 col-sm-12 col-md-9 col-lg-12">
-									<div style="border-radius: 10px" class="table-responsive">
+									<div style="border-radius: 15px" class="table-responsive">
 										<table  class="table table-bordered table-hover">
 
 
@@ -122,10 +126,10 @@
 												<td>
 													<h5>PAGO CON TARJETA</h5>
 						                        	<br>
-						                            <img style="width: 400px" src="Imagenes/pago1.jpg" class="img-responsive">
+						                            <img style="width: 200px" src="Imagenes/pago1.jpg" class="img-responsive">
 												</td>
-												<td>
-													<br><br><br>
+												<td style="vertical-aling: middle">
+													
 													<a href="#ventan1" class="btn btn-success btn-lg" data-toggle="modal">Boton #1</a>
 												</td>
 												
@@ -134,10 +138,10 @@
 												<td>
 													<h5>BANCA POR INTERNET</h5>
 						                        	<br>
-						                            <img style="width: 400px" src="Imagenes/pago2.png" class="img-responsive">
+						                            <img style="width: 200px" src="Imagenes/pago2.png" class="img-responsive">
 												</td>
-												<td>
-													<br><br><br><br>
+												<td style="vertical-aling:middle">
+													
 													<a href="#ventan2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
 												</td>
 												
@@ -146,10 +150,10 @@
 												<td>
 													<h5>PAYPAL</h5>
 						                        	<br>
-						                            <img style="width: 400px" src="Imagenes/pago3.jpg" class="img-responsive">
+						                            <img style="width: 200px" src="Imagenes/pago3.jpg" class="img-responsive">
 												</td>
-												<td>
-													<br><br><br><br>
+												<td style="vertical-aling:middle">
+													
 													<a href="#ventan2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
 												</td>
 
@@ -158,10 +162,10 @@
 												<td>
 													<h5>CONTRA ENTREGA</h5>
 						                        	<br>
-						                            <img  style="width: 400px" src="Imagenes/pago4.png" class="img-responsive">
+						                            <img  style="width: 200px" src="Imagenes/pago4.png" class="img-responsive">
 												</td>
-												<td >
-													<br><br><br>
+												<td style="vertical-aling:middle">
+													
 													<a href="#ventan2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
 												</td>
 
@@ -171,7 +175,7 @@
 								</div>
 					
 
-									<!-- VENTANA EMERGENTE-->
+										<!-- VENTANA EMERGENTE-->
 
 											<div class="modal fade" id="ventan1">
 												<div class="modal-dialog">
@@ -241,7 +245,8 @@
 													               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Cancelar</button>
 													            </div>
 													            <div class="col-md-6 col-sm-6 col-xs-6 ">
-													                  <button type="button" class="btn btn-warning btn-lg btn-block">Pagar</button>
+													                  <!-- cambio ...<button type="button" class="btn btn-warning btn-lg btn-block">Pagar</button>  -->
+													                  <a href="#mensaje_pago" class="btn btn-warning btn-lg btn-block" data-toggle="modal">PAGAR</a>
 													            </div>
 															</div>
 
@@ -257,7 +262,7 @@
 												</div>
 											</div>
 
-											<!-- VENTANA EMERGENTE 2DO BOTON-->
+										<!-- VENTANA EMERGENTE 2DO BOTON-->
 
 											<div class="modal fade" id="ventan2">
 												<div class="modal-dialog">
@@ -284,40 +289,116 @@
 													
 												</div>
 											</div>
+											<!-- VENTANA EMERGENTE MENSAJE-->
+
+											<div class="modal fade" id="mensaje_pago">
+												<div class="modal-dialog">
+													<div class="modal-content">
+
+														<br><br><br><br>
+														<div class="modal-body">
+															<img   src="Imagenes/mensaje.png" class="img-responsive">
+														</div>
+														<br><br>
+														
+
+														<!-- contenido de la ventana-->
+														<div class="modal-footer">
+															<a href="index.html"><button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button></a>
+															
+															
+															
+														</div>
+													</div>
+													
+												</div>
+											</div>
+											<!-- VENTANA EMERGENTE FIN-->	
 									</div>
 
 								</form>
 
-									<!-- VENTANA EMERGENTE FIN-->
 
 
-								
+
+												
 				
 			</div>
-
-			<div class="visible-lg col-xs-12 col-sm-4 col-md-3 col-lg-3">
+			
+			<div style="margin-top: 20px" class="visible-lg col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				
-						<form action="#" class="credit-card-div">
-							<div class="panel panel-default">
-						 		<div class="panel-heading">
-									     	<div class=" modal-content col-md-12">	
-									     		<div class="modal-header">
+						<div class="menu">
+							
+						 		
+					     	<div class=" modal-content col-md-12">	
+					     
+
+										<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+											<br>
+											<h2 style="text-align: center; color:#2E37EC"> RESUMEN DE PEDIDO</h2>
+
+											<hr style="border: 2px solid #FE642E">
+
+											<div style="border-radius: 15px" class="table-responsive">
+												<table  class="table table-bordered table-hover">
+
+
+													<tr id="fondo2">
+														<th><p>Cant</p></th>
+														<th><p>Producto</p></th>
+														<th><p>Precio</p></th>
+														
+													</tr>
+													<tr >
+														<td><p>5kg</p></td>
+														<td><p>Jamon</p></td>
+														<td style="vertical-aling: middle"><p>S/. 10.00</p></td>
+														
+													</tr>
+													<tr>
+														<td><p>4 tarros</p></td>
+														<td><p>Leches</p></td>
+														<td style="vertical-aling: middle"><p>S/. 9.00</p></td>
+														
+													</tr>
+													<tr>
+														<td><p>4kg</p></td>
+														<td><p>Huevos</p></td>
+														<td style="vertical-aling: middle"><p>S/. 6.00</p></td>
+
+													</tr>
+													<tr>
+														<td><p>2</p></td>
+														<td><p>Cafes</p></td>
+														<td style="vertical-aling: middle"><p>S/. 10.00</p></td>
+
+													</tr>
+													<tr>
+														<td><p>2</p></td>
+														<td><p>Cafes</p></td>
+														<td style="vertical-aling: middle"><p>S/. 10.00</p></td>
+
+													</tr>
 													
-													<h4 class="modal-title">RESUMEN DE PEDIDO</h4>
-												</div>
-									      
-									     		<div class="modal-body">
-															
-									     		</div>
-									     		<div class="modal-footer">
-									     			
-									     		</div>
-									     	</div>
-						  				</div>
-							</div>
-						</form>
+													
 
-			</div>
+												</table>
+
+											</div>
+											
+											<hr style="border: 2px solid #FE642E">
+											<div style="color: #FE642E; font-size: 30px; text-align: center">
+												<p>TOTAL</p>
+												<p>S/. 45.00</p>
+											</div>
+											<div style="background-color: #2E37EC; text-align: center; font-size: 30px; color: #fff ">
+												<p><strong>COMPRAR</strong></p>
+											</div>
+										</div>
+					     	</div>
+				
+						</div>
+			</div>		
 		</div>
 		
 	</div>
