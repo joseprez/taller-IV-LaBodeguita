@@ -2,6 +2,26 @@ body{
 	
 }
 
+section{
+	width: 80%;
+	margin: 0 auto;
+}
+.btn-warning{
+	background-color: #f0ad4e;
+	border-color: #e38d13;
+	background-image: linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075) ;
+}
+
+.botones-iniciales{
+	float: right;
+}
+
+footer{
+	width: 80%;
+	margin: 0 auto;
+}
+
 /* -- HEADER -- */
 .navbar{
 	margin-bottom: 0;
@@ -9,4 +29,14 @@ body{
 
 .jumbotron-lb{
 	padding: 20px 0;
+	padding-left: 5%;
+}
+
+.modal-footer{
+	text-align: center;
+}
+
+.btn-block{
+	display: block;
+	width: 100%;
 }

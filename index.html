@@ -68,17 +68,21 @@
 		<!-- Aqui va el jumbotron-->
     <section class="jumbotron jumbotron-lb">
       <div class="container">
-        <img src="img/logo2.png" >
+      <div id="logo">
+      	<img src="img/logo2.png" >
+      </div>
+        
 
         <!--Ingresar-->
-        <button class="btn btn-primary" data-toggle="modal" data-target="#ventana1">Iniciar Sesión</button>
+       <div class="botones-iniciales">
+        <button class="btn btn-warning" data-toggle="modal" data-target="#ventana1">Iniciar Sesión</button>
 
         <div class="modal fade" id="ventana1">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
               <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
-                <h2 class="modal-title">Iniciar Sesión</h2>
+                <h2 class="modal-title" style="text-align: center;"><b>Iniciar Sesión</b></h2>
               </div>
 				<div class="modal-body">
 				    <div class="form-group">
@@ -88,12 +92,19 @@
 					
 				<div class="form-group">
 					<label for="pass">Contraseña: </label>
-                    <input class="form-control" type="password"  id="pass" placeholder="Contraseña" required="">
+                    <input class="form-control" type="password"  id="pass" placeholder="" required="">
+                </div>
+
+                <div class="checkbox">
+                	<label>
+                		<input type="checkbox" name="remember-me">
+                		Recordar
+                	</label>
                 </div>
 				
 				</div>
 			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Ingresar</button>
+				<button type="button" class="btn btn-default btn-primary btn-block" data-dismiss="modal"><span class="glyphicon glyphicon-user"></span> Ingresar</button>
 			  </div>
             </div>
           </div>
@@ -101,7 +112,9 @@
         </div>
 
         <!--Registrarse-->
-        <a href="#ventana2" class="btn btn-primary" data-toggle="modal">Registrarse</a>
+        <a href="Registrarse.html" class="btn btn-warning">Registrarse</a>
+        </div>
+        
       </div>
     </section>
 
@@ -146,33 +159,6 @@
       </div>
     </section>
    
-   <!-- slider 
-   <div class="conteiner1">
-    
-     <div class="col-md-12">
-       <div class="carousel-1" class="carousel slide" data-ride="carousel">
-         INDICADORES 
-         <ol class="carousel-indicators">
-           <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-           <li data-target="#carousel-1" data-slide-to="1"></li>
-           <li data-target="#carousel-1" data-slide-to="2"></li>
-         </ol>
-          CONTENEDOR DE LOS SLIDE 
-         <div class="carousel-inner" role="listbox">
-           <div class="item">
-             <img src="http://compratuoferta.com/images/ofertas.png" class="img-responsive">
-             <div class="carousel-caption">
-               <h3>Esta es nuestra oferta #1</h3>
-               <p>GG ojala que me salga</p>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   
-   </div> -->
-
-
     <footer>
     <h1><span class="icon-facebook2"></span> No SaLE</h1>
     	Todos los derechos reservados. La Bodeguita ©
