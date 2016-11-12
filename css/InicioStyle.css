@@ -3,14 +3,15 @@ body{
 }
 
 .container{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
+}
+
+header{
 
 }
 
 section{
-	width: 80%;
-	margin: 0 auto;
 }
 .btn-warning{
 	background-color: #f0ad4e;
@@ -20,7 +21,10 @@ section{
 }
 
 .botones-iniciales{
-	float: right;
+}
+
+#logo{
+	text-align: center;
 }
 
 footer{
@@ -34,7 +38,7 @@ footer{
 }
 
 .jumbotron-lb{
-	padding: 20px 0;
+	padding: 10px 0;
 	padding-left: 5%;
 }
 
